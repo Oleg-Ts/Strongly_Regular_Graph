@@ -1,5 +1,5 @@
 # Strongly_Regular_Graph
-Determining the Strongly Regular Graph
+Determining the Strongly Regular Graph.
 Документация к программе "Определение сильно-регулярного графа и его параметров"
 Выполнил:
  Цибилев Олег Дмитриевич
