@@ -302,7 +302,6 @@ bool SRGraph(Matrix& A)
 			return false;
 		}
 	};
-	// check disconnectedness????
 
 
 
