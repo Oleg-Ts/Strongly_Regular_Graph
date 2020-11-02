@@ -581,6 +581,11 @@ void Strongly_Regular_Graph()
 					break;
 				}
 				cin >> node2;
+				if ((node1 > A.size()) || (node2 > A.size()))
+				{
+					cout << "ERROR: Vertex number must not exceed the number of vertices in the graph, \ntry again to enter the previous line correctly\n";
+					continue;
+				}
 				A[node1 - 1][node2 - 1] = 1;
 				A[node2 - 1][node1 - 1] = 1;
 				//cout << node1 << " - " << node2 << endl;
